@@ -1,0 +1,81 @@
+footer{
+    
+    bottom: 0px;
+    width: 100%;
+    font-family: montserrat;
+    background-color: #E5E5E5;
+
+}
+
+p{
+    size: 18px;
+}
+
+.footer-bottom{
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.footer-site-info{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.line{
+    border-top: 2px solid #2C96BF;
+    padding: 0;
+    margin: 0px auto 0 auto;
+}
+ 
+.socialMedia{
+    color: #2C96BF;
+    padding: 5px 8px;
+    border-radius: 5px;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    size: 10px;
+}
+
+.icon{
+    border: white;
+    color:#2C96BF;
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    border-color: white;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.icon:hover{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.facebook:hover{
+    background-color: #2C96BF;
+    color: #ffffff;
+}
+.youtube:hover{
+    background-color: #2C96BF;
+    color: #ffffff;
+}
+.instagram:hover{
+    background-color: #2C96BF;
+    color: #ffffff;
+}

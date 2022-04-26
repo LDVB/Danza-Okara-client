@@ -1,0 +1,36 @@
+*{
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.Logo{
+text-align: left;
+margin: 10px;
+padding: 10px;
+
+}
+
+.NavMenu{
+    color: #2C96BF;
+    font-family: Montserrat;
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+.Hide{
+    padding: 22px;
+    color: #2C96BF;
+
+}
+
+.Line{
+    border-top: 2px solid #2C96BF;
+    padding: 0;
+    margin: 0px auto 0 auto;
+
+}
+
