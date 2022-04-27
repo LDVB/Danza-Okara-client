@@ -2,6 +2,7 @@ import "./Navigation.css"
 import {  Nav } from 'react-bootstrap'
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faCircleDown} from '@fortawesome/free-regular-svg-icons'
 
 const Navigation = () => {
 
@@ -27,7 +28,7 @@ const Navigation = () => {
                         <Nav.Link> Contactanos </Nav.Link>
                     </Link>
                     <div>
-                    <FontAwesomeIcon icon="fa-solid fa-bars" />
+                    <FontAwesomeIcon icon={ faCircleDown} />
                     </div>
 
                 </nav>
