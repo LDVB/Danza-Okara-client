@@ -8,42 +8,38 @@ import { useState } from "react"
 const Navigation = () => {
 
     const [click, setClick]= useState (false)
+
     const handleClick = () => setClick(!click)
+
     return (
-        <>
-            <div>
+     <nav className="navBar">
+         <div className="nav-container">
+             <ul className={click ? 'NavMenu active' : 'NavMenu'}>
+                <li className="nav-item"> 
 
-           
-                <nav className="NavMenu">
-                    
-                    <Link to="/Danza Okara" className="item">
-                        <Nav.Link className="NavLink"> Danza Okara </Nav.Link>
-                    </Link>
-                    <Link to="/Actividades" className="item">
-                        <Nav.Link className="NavLink"> Actividades </Nav.Link>
-                    </Link>
-                    <Link to="/Proyecto" className="item">
-                        <Nav.Link className="NavLink"> Nuestro Proyecto </Nav.Link>
-                    </Link>
-                    <Link to="/Contactanos" className="item">
-                        <Nav.Link className="NavLink"> Contáctanos </Nav.Link>
-                    </Link>
-                    
+                </li>
+                 <nav className={click ? 'NavMenu active' : 'NavMenu'}>
+                 
+                     <Link to="/Danza Okara" className="nav-item">
+                         <Nav.Link active className="NavLink" onClick={handleClick}> Danza Okara </Nav.Link>
+                     </Link>
+                     <Link to="/Actividades" className="nav-item">
+                         <Nav.Link active className="NavLink" onClick={handleClick}> Actividades </Nav.Link>
+                     </Link>
+                     <Link to="/Proyecto" className="nav-item">
+                         <Nav.Link active className="NavLink" onClick={handleClick}> Nuestro Proyecto </Nav.Link>
+                     </Link>
+                     <Link to="/Contactanos" className="nav-item">
+                         <Nav.Link  active className="NavLink" onClick={handleClick}> Contáctanos </Nav.Link>
+                     </Link>
 
-                </nav>
-
-                <div className="Nav-Icon" onClick={handleClick}>
-                    <FontAwesomeIcon icon={ click? faXmark : faAlignJustify} />
-                </div>
-
-                
-
-            </div>
-
-            <div className="Line" />
-
-
-        </>
+                     <div className="Nav-Icon" onClick={handleClick}>
+                     <FontAwesomeIcon icon={ click? faXmark : faAlignJustify} />
+                     </div>
+                 </nav>
+             </ul>
+         </div>
+     </nav>
 
     )
 
