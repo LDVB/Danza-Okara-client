@@ -14,30 +14,27 @@ const Navigation = () => {
     return (
      <nav className="navBar">
          <div className="nav-container">
-             <ul className={click ? 'NavMenu active' : 'NavMenu'}>
-                <li className="nav-item"> 
+             <ul className={click ? 'Nav-menu active' : 'Nav-menu'}>
+               
+                <nav className={click ? 'Nav-menu active' : 'Nav-menu'}>
 
-                </li>
-                 <nav className={click ? 'NavMenu active' : 'NavMenu'}>
-                 
-                     <Link to="/Danza Okara" className="nav-item">
-                         <Nav.Link active className="NavLink" onClick={handleClick}> Danza Okara </Nav.Link>
-                     </Link>
-                     <Link to="/Actividades" className="nav-item">
-                         <Nav.Link active className="NavLink" onClick={handleClick}> Actividades </Nav.Link>
-                     </Link>
-                     <Link to="/Proyecto" className="nav-item">
-                         <Nav.Link active className="NavLink" onClick={handleClick}> Nuestro Proyecto </Nav.Link>
-                     </Link>
-                     <Link to="/Contactanos" className="nav-item">
-                         <Nav.Link  active className="NavLink" onClick={handleClick}> Contáctanos </Nav.Link>
-                     </Link>
-
-                     <div className="Nav-Icon" onClick={handleClick}>
-                     <FontAwesomeIcon icon={ click? faXmark : faAlignJustify} />
-                     </div>
-                 </nav>
+                    <Link to="/Danza Okara" className="nav-item">
+                        <Nav.Link active className="NavLink" onClick={handleClick}> Danza Okara </Nav.Link>
+                    </Link>
+                    <Link to="/Actividades" className="nav-item">
+                        <Nav.Link active className="NavLink" onClick={handleClick}> Actividades </Nav.Link>
+                    </Link>
+                    <Link to="/Proyecto" className="nav-item">
+                        <Nav.Link active className="NavLink" onClick={handleClick}> Nuestro Proyecto </Nav.Link>
+                    </Link>
+                    <Link to="/Contactanos" className="nav-item">
+                        <Nav.Link  active className="NavLink" onClick={handleClick}> Contáctanos </Nav.Link>
+                    </Link>
+                </nav>
              </ul>
+            <div className="Nav-Icon" onClick={handleClick}>
+                     <FontAwesomeIcon icon={ click? faXmark : faAlignJustify} />
+            </div>
          </div>
      </nav>
 

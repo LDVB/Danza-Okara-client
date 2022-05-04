@@ -53,10 +53,17 @@
 
 .nav-item:hover:after {
   width: 100%;
-  background: rgb(242,244,247);
-  background: linear-gradient(114deg, rgba(242,244,247,1) 12%, rgba(14,219,211,1) 47%, rgba(14,151,214,1) 83%, rgba(14,31,219,1) 100%);
+  background: rgb(28,211,222);
+  background: radial-gradient(circle, rgba(28,211,222,1) 0%, rgba(235,242,241,0.9985488720154494) 100%);
 }
-.NavMenu{
+
+.nav-item.active{
+ color:rgb(225, 44, 192);
+
+
+}
+
+.Nav-menu{
 
     font-family: Montserrat;
     padding: 50px;
@@ -81,57 +88,51 @@
 }
 
 
-.nav-icon {
+.Nav-Icon {
     display: none;
-  }
+
+}
   
-  @media screen and (max-width: 960px) {
-    .nav-menu {
+@media screen and (max-width: 960px) {
+    .Nav-menu {
       display: flex;
-      flex-direction: column;
+      flex-direction:column;
       width: 100%;
-      border-top: 1px solid #2C96BF;
       position: absolute;
-      top: 80px;
+      margin-top: 90px;
+      opacity: 1;
       left: -110%;
-      opacity: 1;
       transition: all 0.5s ease;
-    }
-  
-    .nav-menu.active {
-      background: #2C96BF;
-      color: red;
-      left: 0px;
-      opacity: 1;
-      transition: all 0.5s ease;
-      z-index: 1;
-    }
-    .nav-item .active {
-      color: #2C96BF;
-      border: none;
-    }
-    .nav-links {
-      padding: 1.5rem;
-      width: 100%;
-      display: table;
-    }
-  
-    .nav-icon {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(-100%, 60%);
-      font-size: 1.8rem;
-      cursor: pointer;
-      color: #2C96BF;
-    }
-  }
 
-.Line {
-    border-top: 2px solid #2C96BF;
-    padding: 0;
-    margin: 0px auto 0 auto;
+    }
 
+    .Nav-menu .active {
+        background: rgb(45,179,233);
+        left: 0px;
+        opacity: 1;
+        transition: all .5s ease;
+        z-index: 1;
+        color:white;
+    }   
+
+    .NavLink {
+        padding: 1.5rem;
+        width: 100%;
+        display: table;
+
+    }
+
+    
+    .Nav-Icon {
+        display: block;
+        position: absolute;
+        top:0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color:#2C96BF;
+
+    }
 }
 
