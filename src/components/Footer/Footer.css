@@ -4,24 +4,10 @@ footer{
     width: 100%;
     font-family: montserrat;
     background-color: #E5E5E5;
-
 }
 
 p{
     size: 18px;
-}
-
-.footer-bottom{
-    margin-top: 2px;
-    margin-left: 10px;
-    margin-bottom: 2px;
-}
-
-.footer-site-info{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-top: 30px;
 }
 
 .line{
@@ -29,7 +15,22 @@ p{
     padding: 0;
     margin: 0px auto 0 auto;
 }
- 
+
+.title{
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 45px 0px;
+
+}
+
 .socialMedia{
     color: #2C96BF;
     padding: 5px 8px;
@@ -38,22 +39,19 @@ p{
     size: 10px;
 }
 
-.icon{
+
+.icon {
     border: white;
     color:#2C96BF;
     position: relative;
     background-color: white;
     border-radius: 50%;
     border-color: white;
-    padding: 15px;
+    padding: 12px;
     margin: 10px;
     width: 50px;
     height: 50px;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -64,7 +62,6 @@ p{
     visibility: visible;
     pointer-events: auto;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-
 }
 
 .facebook:hover{
@@ -79,3 +76,30 @@ p{
     background-color: #2C96BF;
     color: #ffffff;
 }
+
+
+.grupo-2{
+    background-color: #d9d5d5;
+    padding: 15px 10px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 960px){
+     
+    .grupo-1{
+        width: 50%;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 35px 0px;
+
+    }
+
+    .title{
+        margin-top: 25px;
+
+    }
+
+    
+}
+
+
