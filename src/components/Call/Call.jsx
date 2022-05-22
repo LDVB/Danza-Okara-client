@@ -1,11 +1,16 @@
 import './Call.css'
+import { Button } from "react-bootstrap"
 
 
 const Call = () => {
     return (
         <div className='llamada'>
             <div className="hero">
-                <h1>Danza Okara<span>- ven a bailar con nosotros -</span></h1>
+                <h1 className='title'> Danza Okara</h1>
+                <span className='location'>
+                <button className="accion">Ven a bailar!</button>
+                </span>
+                
             </div>
 
         </div>
