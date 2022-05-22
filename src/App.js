@@ -3,6 +3,7 @@ import './App.css';
 import Logo from './components/Logo/Logo';
 import Navigation from './components/Navigation/Navigation';
 import AppRoutes from './routes/AppRoutes';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -12,7 +13,7 @@ function App() {
     <Navigation/>
     <Logo/>
     <AppRoutes/>
-    {/* <Footer/> */}
+    <Footer/> 
   
     
   
