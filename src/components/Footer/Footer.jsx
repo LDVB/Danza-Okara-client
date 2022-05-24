@@ -24,10 +24,9 @@ const Footer = () => {
                 <div className="grupo-1">
                     <div className="box">
                         <p className="title">DANZA OKARA</p>
-                        <p>Beneficios de la danza</p>
                         <p>Clases adultos</p>
                         <p>Clases Fusión Latinos</p>
-                        <p>Danza Okara y Club amigos</p>
+                        
                     </div>
                     <div className="box">
                         <p className="title">ACTIVIDADES</p>
@@ -40,6 +39,7 @@ const Footer = () => {
                         <p>Quienes somos</p>
                         <p>Formación</p>
                         <p>Nuestros profesores</p>
+                        <p>Danza Okara y Club amigos</p>
                     </div>
                     <div className="box">
                         <p className="title">¡SIGUENOS!</p>
