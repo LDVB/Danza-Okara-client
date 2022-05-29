@@ -74,14 +74,6 @@ const Fill = () => {
                     <p className='grid-texto'>Carnaval</p>
                 </div>
 
-                <div className='gallery-item'> {/* // 18 */}
-                    <img className='gallery-img' src="https://res.cloudinary.com/ddtolhmab/image/upload/v1653322035/Danza%20Okara/NAvidad_yonni0.jpg" alt="Navidad" />
-                </div>
-
-                <div className='gallery-item'> {/* // 19 */}
-                    <p className='grid-texto'>Navidad</p>
-                </div>
-                
                 <div className='gallery-item'>{/* // 20 */}
                     <img className='gallery-img' src="https://res.cloudinary.com/ddtolhmab/image/upload/v1653319021/Danza%20Okara/WhatsApp_Image_2022-05-08_at_7.24.44_PM_s3rywb.jpg" alt="Festival" />
                 </div>
@@ -105,6 +97,15 @@ const Fill = () => {
                     </div>
 
                 </div>
+
+                <div className='gallery-item'> {/* // 18 */}
+                    <img className='gallery-img' src="https://res.cloudinary.com/ddtolhmab/image/upload/v1653322035/Danza%20Okara/NAvidad_yonni0.jpg" alt="Navidad" />
+                </div>
+
+                <div className='gallery-item'> {/* // 19 */}
+                    <p className='grid-texto'>Navidad</p>
+                </div>
+                
 
                 <div className='gallery-item'> {/* // 19 */}
                     <img className='gallery-img' src="https://res.cloudinary.com/ddtolhmab/image/upload/v1653664615/Danza%20Okara/IMG-20220516-WA0007_hoyl66.jpg" alt="alas plata" />
