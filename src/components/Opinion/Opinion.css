@@ -1,13 +1,17 @@
-h1 {
+.title-opinion {
     text-align:center;
     font-size:80px;
     font-family:La belle aurore, serif;
     font-weight:normal;
 }
 
-p {
+.title-opinion-color{
+    color:#2C96BF;
+}
+
+.text-opinion {
     font-size:20px;
-    font-family: Monserrat, serif;
+    font-family: Monserrat;
 }
 
 .colour-block {

@@ -83,7 +83,7 @@ const Fill = () => {
                     <div className='grid-llamada'>
                     <h2 >Disfruta bailando</h2>
                     <br/>
-                    <p> Unete a nuestras locuras. Celebra las fiestas con el ritmo de la danza oriental. Navidad, carnaval, Halloween...
+                    <p> Unete a nuestras locuras. Celebra las fiestas con el ritmo de la danza oriental. Navidad, Carnaval, Halloween...
                         Y si se te ocurre alguna más que nos falte por disfrutar, avisanos!
                     </p>
                     <br />

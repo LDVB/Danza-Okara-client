@@ -11,7 +11,7 @@ const FusionLatinoClass = () => {
                 
             </div>
 
-            <div class="coursemeal">
+            <div class="coursemeal-fusion">
 
 
                 <div class="coursemeal__div ">

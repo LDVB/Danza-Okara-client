@@ -6,7 +6,6 @@ const ClubAmigosClass = () => {
          <div className='clubAmigosClass'>
 
             <div class="description">
-                <h1 class="description__title">Danza Okara y Club Amigos</h1>
                 <p class="description__p"> La danza es una actividad con numerosos beneficios, siendo para ellos una actividad terapéutica que les proporciona seguridad, autoestima, equilibrio, musicalidad, belleza y diversión a la vez que disciplina y orden.</p>
                 <span className='location'>
                 <button className="accion-black">Informate!</button>

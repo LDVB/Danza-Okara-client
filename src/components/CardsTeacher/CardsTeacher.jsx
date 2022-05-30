@@ -15,7 +15,7 @@ const CardsTeacher = () => {
                     </div>
 
                     <div class="details">
-                        <p>Conchi
+                        <p class="text-card">Conchi
                             <br />
                             <span class="job-title">Profesora de Danza Okara</span>
                         </p>
@@ -33,7 +33,7 @@ const CardsTeacher = () => {
                     </div>
 
                     <div class="details fany">
-                        <p>Fany
+                        <p class="text-card">Fany
                             <br />
                             <span class="job-title">Profesora de Fusión Latino</span>
                         </p>

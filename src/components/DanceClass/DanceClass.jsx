@@ -20,7 +20,7 @@ const DanceClass = () => {
 
                     <picture class="responsive-img">
                         <source media="(min-width: 992px)" srcset="https://res.cloudinary.com/ddtolhmab/image/upload/v1653302002/Danza%20Okara/DanzaOkara-8_x8vihr.jpg" />
-                        <img src="https://i.postimg.cc/jSTZmp8H/appetizer-img-1.jpg" alt="Appetizer" />
+                        <img src="https://res.cloudinary.com/ddtolhmab/image/upload/v1653302002/Danza%20Okara/DanzaOkara-8_x8vihr.jpg" alt="Appetizer" />
                     </picture>
 
                     <div class="coursemeal-info">
@@ -33,13 +33,11 @@ const DanceClass = () => {
 
                     <picture class="responsive-img">
                         <source media="(min-width: 992px)" srcset="https://res.cloudinary.com/ddtolhmab/image/upload/v1651737618/Danza%20Okara/foto22_oxt6bf.jpg" />
-                        <source media="(min-width: 767px)" srcset="https://res.cloudinary.com/ddtolhmab/image/upload/v1653301603/Danza%20Okara/WhatsApp_Image_2022-05-07_at_9.53.36_PM_mygefh.jpg" />
-                        <source srcset="https://i.postimg.cc/pLY8dt4q/maindish-img-3.jpg" />
-                        <img src="https://i.postimg.cc/V6NCCRK0/maindish-img-1.jpg" alt="Main Course" />
+                        <img src="https://res.cloudinary.com/ddtolhmab/image/upload/v1651737618/Danza%20Okara/foto22_oxt6bf.jpg" alt="Main Course" />
                     </picture>
 
                     <div class="coursemeal-info">
-                        <a href="#" class="coursemeal-info__link">Medio <br/><br/>Jueves de 20h a 21h</a>
+                        <a href="" class="coursemeal-info__link">Medio <br/><br/>Jueves de 20h a 21h</a>
                     </div>
                 </div>
                 <div class="coursemeal__div">

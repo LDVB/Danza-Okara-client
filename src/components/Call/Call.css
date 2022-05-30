@@ -64,3 +64,23 @@ h1 span {
 	50%  { background-position: 100% 70%, 0 0;}
 	100% { background-position: 0% 30%, 0 0;}
 }
+
+
+@media only screen and (max-width: 960px) {
+   
+.llamada{
+	margin-top: 508px;
+}
+
+.name {
+		position: absolute;
+		top: 3843px;
+
+}
+
+h1 {
+	font-size: 60px;
+
+
+}
+}
