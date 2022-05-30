@@ -8,12 +8,12 @@
     padding: 80px;
 }
 
-.description {
+.description-fusion {
     flex: 0 0 25%;
     padding-right: 30px;
 }
 
-.description__title {
+.description-fusion__title {
     font-family: La Belle Aurore;
     font-size: 40px;
     letter-spacing: 1.5px;
@@ -21,9 +21,10 @@
     color: #000;
 }
 
-.description__p {
-        size: 25px;
-        margin-bottom: 37px;
+.description-fusion__p {
+    font-size: 25px;
+    margin-bottom: 37px;
+
 }
 
 .coursemeal-fusion {
@@ -35,6 +36,7 @@
 .coursemeal-fusion__div {
     flex: 0 0 33.3333333%;
     position: relative;
+    margin-left: 335px;
 }
 
 .responsive-img img {

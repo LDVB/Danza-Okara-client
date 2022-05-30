@@ -20,7 +20,7 @@ const DanceClass = () => {
 
                     <picture class="responsive-img">
                         <source media="(min-width: 992px)" srcset="https://res.cloudinary.com/ddtolhmab/image/upload/v1653302002/Danza%20Okara/DanzaOkara-8_x8vihr.jpg" />
-                        <img src="https://res.cloudinary.com/ddtolhmab/image/upload/v1653302002/Danza%20Okara/DanzaOkara-8_x8vihr.jpg" alt="Appetizer" />
+                        <img src="https://res.cloudinary.com/ddtolhmab/image/upload/v1653302002/Danza%20Okara/DanzaOkara-8_x8vihr.jpg" alt="Iniciación" />
                     </picture>
 
                     <div class="coursemeal-info">
@@ -33,7 +33,7 @@ const DanceClass = () => {
 
                     <picture class="responsive-img">
                         <source media="(min-width: 992px)" srcset="https://res.cloudinary.com/ddtolhmab/image/upload/v1651737618/Danza%20Okara/foto22_oxt6bf.jpg" />
-                        <img src="https://res.cloudinary.com/ddtolhmab/image/upload/v1651737618/Danza%20Okara/foto22_oxt6bf.jpg" alt="Main Course" />
+                        <img src="https://res.cloudinary.com/ddtolhmab/image/upload/v1651737618/Danza%20Okara/foto22_oxt6bf.jpg" alt="Medio" />
                     </picture>
 
                     <div class="coursemeal-info">
@@ -46,7 +46,7 @@ const DanceClass = () => {
                         <source media="(min-width: 992px)" srcset="https://res.cloudinary.com/ddtolhmab/image/upload/v1651738964/Danza%20Okara/Guerreras-2_u3poj1.jpg" />
                         <source media="(min-width: 767px)" srcset="https://res.cloudinary.com/ddtolhmab/image/upload/v1651738964/Danza%20Okara/Guerreras-2_u3poj1.jpg" />
                         <source srcset="https://res.cloudinary.com/ddtolhmab/image/upload/v1651738964/Danza%20Okara/Guerreras-2_u3poj1.jpg" />
-                        <img src="https://res.cloudinary.com/ddtolhmab/image/upload/v1651738964/Danza%20Okara/Guerreras-2_u3poj1.jpg" alt="Desserts" />
+                        <img src="https://res.cloudinary.com/ddtolhmab/image/upload/v1651738964/Danza%20Okara/Guerreras-2_u3poj1.jpg" alt="Avanzado" />
                     </picture>
 
                     <div class="coursemeal-info">
