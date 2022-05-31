@@ -16,7 +16,7 @@ const Opinion = () => {
                 </div>
                 <div class="skew-cc"></div>
                 <div class="white-block">
-                    <h1 class="white-block">Nuestras profes</h1>
+                    <h1 class="title-opinion2">Nuestras profes</h1>
                     <div class="container">
                     <CardsTeacher/>
                     </div>
@@ -29,7 +29,7 @@ const Opinion = () => {
                 </div>
                 <div class="skew-cc"></div>
                 <div class="white-block">
-                    <h1 className='title-opinion-color'>Danza Okara & club amigos</h1>
+                    <h1 className='title-opinion2'>Danza Okara & club amigos</h1>
                    <ClubAmigosClass/>
                 </div>
                 <div class="skew-c"></div>

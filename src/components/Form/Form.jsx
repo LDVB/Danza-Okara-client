@@ -41,15 +41,15 @@ const Form = () => {
 
             <div className="info-form">
 
-                <div className="Col">
+                <div className="col">
                     <FontAwesomeIcon className="icono" icon={faLocationPin}  />
                     <p className="texto" >C. Navales, 49, 28925 Alcorcón, Madrid</p>
                 </div>
-                <div className="Col">
+                <div className="col">
                     <FontAwesomeIcon icon={faEnvelope} className="icono"/>
                     <p className="texto">danzaokara@gmail.com</p>
                 </div>
-                <div className="Col">
+                <div className="col">
                     <FontAwesomeIcon icon={faPhone} className="icono"/>
                     <p className="texto"> 661 09 07 14 <br />628 68 38 85 </p>
                 </div>

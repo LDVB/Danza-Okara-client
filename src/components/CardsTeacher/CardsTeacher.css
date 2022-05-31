@@ -107,5 +107,29 @@
     opacity: 1;
   }
   
+
+  
+@media only screen and (max-width: 960px) {
+    
+  .card {
+
+    position: relative;
+    width: 150px;
+    height: 250px;
+    margin: 10px;
+  }
+
+  .white-block{
+      
+      background:#fff;
+      width:100%;
+      color:#2C96BF;
+      
+  }
+
+  
+  
+
+}
   
   

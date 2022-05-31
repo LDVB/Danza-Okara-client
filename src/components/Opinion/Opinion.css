@@ -5,8 +5,8 @@
     font-weight:normal;
 }
 
-.title-opinion-color{
-    color:#2C96BF;
+.title-opinion2{
+    color:#2C96BF; 
 }
 
 .text-opinion {
@@ -43,4 +43,28 @@
     position:absolute;
     left:0px;
     background: linear-gradient(to left bottom, #fff 49%, #2C96BF 50%);
+}
+
+
+
+@media only screen and (max-width: 960px) {
+    
+    h1{
+        text-align:center;
+        font-size:70px;
+        margin-top: 55px;
+        font-weight:normal;
+    }
+
+    .white-block{
+        
+        background:#fff;
+        width:100%;
+        color:#2C96BF;
+        
+    }
+
+    
+    
+
 }
