@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     font-family: Monserrat;
-    padding: 80px;
+    padding: 130px;
 }
 
 .description-fusion {
@@ -36,7 +36,7 @@
 .coursemeal-fusion__div {
     flex: 0 0 33.3333333%;
     position: relative;
-    margin-left: 335px;
+    margin-left: 314px;
 }
 
 .responsive-img img {
@@ -99,7 +99,10 @@
 @media only screen and (max-width: 960px) {
 
     .fusionClass {
-        margin-top: 1196px;
+        margin-top: 1300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         
 
     }

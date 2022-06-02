@@ -9,7 +9,7 @@
 .name {
 
 	position: absolute;
-	top: 2120px;
+	top: 1401px;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
@@ -48,7 +48,7 @@ h1 span {
 .hero {
 	display: flex;
 	justify-content: center;
-	height: 56vh;
+	height: 79vh;
 	width: 100%;
 	background: linear-gradient(45deg, rgba(255,175,189,.7), rgba(100,216,243,.7), rgba(234,236,198,.7), rgba(245,146,176,.7), rgba(52,219,216,.7)) 0 0 / 1000% no-repeat, url(https://res.cloudinary.com/ddtolhmab/image/upload/v1653242445/Danza%20Okara/Tras_bambalinas_pjnuas_edxbpz.jpg) 0 0 / cover;
 	-webkit-animation: gradientAnimation 40s ease infinite;

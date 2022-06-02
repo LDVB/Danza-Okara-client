@@ -1,6 +1,6 @@
+import Alumni from '../Alumni/Alumni'
 import CardsTeacher from '../CardsTeacher/CardsTeacher'
 import ClubAmigosClass from '../ClubAmigosClass/ClubAmigosClass'
-import Form from '../Form/Form'
 import './Opinion.css'
 
 const Opinion = () => {
@@ -25,21 +25,16 @@ const Opinion = () => {
                 <div class="skew-c"></div>
                 <div class="colour-block">
                     <h1 className='title-opinion'>Que piensan nuestros alumnos</h1>
-                    <p className='text-opinion'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                    <Alumni/>
                 </div>
                 <div class="skew-cc"></div>
                 <div class="white-block">
-                    <h1 className='title-opinion2'>Danza Okara & club amigos</h1>
-                   <ClubAmigosClass/>
-                </div>
-                <div class="skew-c"></div>
-                <div class="colour-block">
-                    <h1  className='title-opinion'>Contáctanos!</h1>
-                    <Form/>
+                    <h1 class="title-opinion2">Danza Okara & Club amigos</h1>
+                    <div class="container">
+                    <ClubAmigosClass/>
+                    </div>
 
-                    
                 </div>
-
 
             </div>
         </>
