@@ -1,0 +1,7 @@
+.Image-Alumni{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100%;
+}

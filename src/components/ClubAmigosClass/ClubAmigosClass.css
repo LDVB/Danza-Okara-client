@@ -50,11 +50,11 @@
 .accion-clubAmigos{
 
     cursor: pointer;
-    border: 1px solid #2C96BF;
+    border: 1px solid white;
     background-color: transparent;
     height: 50px;
     width: 200px;
-    color: #2C96BF;
+    color: white;
     font-size: 1.5em;
     font-family: Monserrat;
     margin-bottom: 15px;

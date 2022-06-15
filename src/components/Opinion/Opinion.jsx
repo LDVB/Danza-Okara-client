@@ -24,15 +24,15 @@ const Opinion = () => {
                 </div>
                 <div class="skew-c"></div>
                 <div class="colour-block">
-                    <h1 className='title-opinion'>Que piensan nuestros alumnos</h1>
-                    <Alumni/>
-                </div>
-                <div class="skew-cc"></div>
-                <div class="white-block">
-                    <h1 class="title-opinion2">Danza Okara & Club amigos</h1>
+                <h1 class="title-opinion">Danza Okara & Club amigos</h1>
                     <div class="container">
                     <ClubAmigosClass/>
                     </div>
+                </div>
+                <div class="skew-cc"></div>
+                <div class="white-block">
+                <h1 className='title-opinion2'>Que piensan nuestros alumnos</h1>
+                    <Alumni/> 
 
                 </div>
 

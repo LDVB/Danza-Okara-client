@@ -1,4 +1,5 @@
 import './ClubAmigosClass.css'
+import { Link } from 'react-router-dom'
 
 const ClubAmigosClass = () => {
     return (
@@ -9,7 +10,12 @@ const ClubAmigosClass = () => {
                     <p class="description__p"> La danza es una actividad con numerosos beneficios, siendo para ellos una actividad terapéutica que les proporciona seguridad, autoestima, equilibrio, musicalidad, belleza y diversión a la vez que disciplina y orden.</p>
                     <p class="description__p">Los niños tienen una gran sensibilidad para la música. Todos ellos adoran escuchar música, bailar o cantar en cualquier ocasión. Es quizás una capacidad innata. </p>
                     <span className='location'>
-                        <button className="accion-clubAmigos">Informate!</button>
+                    <Link to="/Contactanos"> 
+                    <button className="accion-clubAmigos"> 
+
+                        Informate!
+                        </button> 
+                        </Link>
                     </span>
                 </div>
 

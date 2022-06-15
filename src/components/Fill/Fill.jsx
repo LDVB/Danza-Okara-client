@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 import './Fill.css'
 
 
@@ -91,8 +91,10 @@ const Fill = () => {
                         Para bailar siempre tenemos animos y ganas!
                     </p>
 
-                    <button className="accion2">
+                    <button className="accion2"> 
+                        <Link to="/Contactanos">
                         Escribenos!
+                        </Link>
                     </button>
                     </div>
 

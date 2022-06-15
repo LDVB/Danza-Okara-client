@@ -1,6 +1,7 @@
 import "./Footer.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
 
@@ -23,19 +24,19 @@ const Footer = () => {
                 <div className='line' />
                 <div className="grupo-1">
                     <div className="box-footer">
-                        <p className="title-footer">DANZA OKARA</p>
+                        <p className="title-footer"> <Link to="/danzaOkara">DANZA OKARA</Link></p>
                         <p>Clases adultos</p>
                         <p>Clases Fusión Latinos</p>
                         
                     </div>
                     <div className="box-footer">
-                        <p className="title-footer">ACTIVIDADES</p>
+                        <p className="title-footer"> <Link to="/Actividades">ACTIVIDADES</Link></p>
                         <p>Eventos</p>
                         <p>Momentos Danza Okara</p>
                         <p>Galeria de fotos</p>
                     </div>
                     <div className="box-footer">
-                        <p className="title-footer">NUESTRO PROYECTO</p>
+                        <p className="title-footer"><Link to="/Proyecto">NUESTRO PROYECTO </Link></p>
                         <p>Quienes somos</p>
                         <p>Formación</p>
                         <p>Nuestros profesores</p>
