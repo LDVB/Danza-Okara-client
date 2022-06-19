@@ -1,7 +1,32 @@
-.Image-Alumni{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: top;
-    border-radius: 100%;
+.testinomial-container{
+    background-color: aquamarine;
+    width: 75%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.test{
+    
+}
+
+.imagen-testimonio{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+ width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 100%;
+}
+
+
+.text-testimonio{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-shrink: 0;
+    text-align: center;
 }
